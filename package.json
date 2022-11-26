@@ -25,17 +25,12 @@
     "vue-jest": "next"
   },
   "files": [
-    "dist",
     "v2"
   ],
-  "main": "./dist/v-lazy-image.js",
-  "module": "./dist/v-lazy-image.mjs",
+  "main": "./v2/v-lazy-image.js",
+  "module": "./v2/v-lazy-image.mjs",
   "exports": {
     ".": {
-      "import": "./dist/v-lazy-image.mjs",
-      "require": "./dist/v-lazy-image.js"
-    },
-    "./v2": {
       "import": "./v2/v-lazy-image.mjs",
       "require": "./v2/v-lazy-image.js"
     }
